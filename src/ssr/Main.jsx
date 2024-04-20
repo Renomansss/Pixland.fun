@@ -64,7 +64,7 @@ function generateMainPage(req) {
     <html lang="${lang}">
       <head>
         <meta charset="UTF-8" />
-        <title>${t`PixelPlanet.Fun`}</title>
+        <title>${t`Pixland.Fun`}</title>
         <meta name="description" content="${t`Place color pixels on an map styled canvas with other players online`}" />
         <meta name="google" content="nopagereadaloud" />
         <meta name="theme-color" content="#cae3ff" />
