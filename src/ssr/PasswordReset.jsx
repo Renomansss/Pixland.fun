@@ -17,7 +17,7 @@ export default function getPasswordResetHtml(name, code, lang, message = null) {
       <html lang="${lang}">
         <head>
           <meta charset="UTF-8" />
-          <title>${t`PixelPlanet.fun Password Reset`}</title>
+          <title>${t`Pixland.fun Password Reset`}</title>
           <meta name="description" content="${t`Reset your password here`}" />
           <meta name="google" content="nopagereadaloud" />
           <meta name="theme-color" content="#cae3ff" />
