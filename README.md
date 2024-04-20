@@ -3,7 +3,7 @@ Hello welcome to Pixland official repository! pixland is a pixel game, this repo
 
 # Git instructions
 If someone wants to make a pixland clone here's how to do it:
-1. Download our repository: reccomending using git, with the command ``git clone https://github.com/Renomansss/Pixmapcodes``
+1. Download our repository: reccomending using git, with the command ``git clone https://github.com/Renomansss/Pixland.fun``
 2. Follow pixelplanet instructions (withouth downloading ppf repository): [PPF instructions](https://git.pixelplanet.fun/ppfun/pixelplanet/src/branch/master/README.md)
 
 # Features 
