@@ -1,0 +1,13 @@
+apps:
+  - script   : ./server.js
+    name     : 'pm-server'
+    node_args: --nouse-idle-notification --expose-gc
+    env:
+      PORT: 80
+      HOST: "localhost"
+      REDIS_URL: 'redis://localhost:6379'
+      MYSQL_HOST: "localhost"
+      MYSQL_USER: "yourmysqluser"
+      MYSQL_DATABASE: "yourmysqldatabase"
+      MYSQL_PW: "yourmysqlpassword"
+      SESSION_SECRET: "randomsecretkey"
