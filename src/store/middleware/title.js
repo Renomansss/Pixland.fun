@@ -17,7 +17,7 @@ function setThemeColorMeta(r, g, b) {
   }
 }
 
-const TITLE = 'PixelPlanet.fun';
+const TITLE = 'Pixland.fun';
 
 let lastTitle = null;
 
