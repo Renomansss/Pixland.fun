@@ -22,6 +22,10 @@ const Converter = React.lazy(() => import(/* webpackChunkName: "converter" */ '.
 // eslint-disable-next-line max-len
 const Modtools = React.lazy(() => import(/* webpackChunkName: "modtools" */ '../Modtools'));
 
+const Void = React.lazy(() => import(/* webpackChunkName: "Vid" */ '../Void'));
+
+const Void = React.lazy(() => import(/* webpackChunkName: "Vid" */ '../News'));
+
 const UserArea = () => {
   const name = useSelector((state) => state.user.name);
   const userlvl = useSelector((state) => state.user.userlvl);
@@ -59,6 +63,16 @@ const UserArea = () => {
         <div label={t`Statistics`}>
           <Suspense fallback={<div>Loading...</div>}>
             <Rankings />
+          </Suspense>
+        </div>
+        <div label={t`Void`}>
+          <Suspense fallback={<div>Loading... getting void data. </div>}>
+            <Void />
+          </Suspense>
+        </div>
+          <div label={t`News`}>
+          <Suspense fallback={<div>Loading... getting void data. </div>}>
+            <News />
           </Suspense>
         </div>
         <div label={t`Converter`}>
